@@ -1,0 +1,25 @@
+{
+    "name": "encima-io/nova-model-state-field",
+    "description": "A Laravel Nova field for your Spatie model state fields.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "model-state",
+        "states"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "spatie/laravel-model-states": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encima\\ModelState\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
